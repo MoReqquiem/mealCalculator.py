@@ -18,3 +18,12 @@ total = meal + tip
 print ("""-Total: ${0:10.2f}
 -Tip: ${1:10.2f}
 -Subtotal: ${2:10.2f}""".format(meal, tip, total))
+
+tipOk = input("Is the tip amount (15%) ok? \a")
+
+tipOk.uppercase()
+
+if(tipOk == N):
+tip1 = .5
+meal1 = meal * tip1
+print("5% : ${0:10.2f})"
